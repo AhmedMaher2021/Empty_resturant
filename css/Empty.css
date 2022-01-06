@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,300;1,400&family=ZCOOL+KuaiLe&display=swap');*,
+*::after,
+*::before,
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins';
+}
+
+#homeheader{   
+    height: 100vh;
+}
+
+ul{
+    width: 100%;
+    background-color: #191f3a;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    list-style: none;
+    position: fixed;
+    z-index: 9999;
+}
+
+li{
+    background-color: #191f3a;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+li a{
+    background: none;
+    height: 40px;
+    width: 85px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.active{
+    color: #fff;
+    border-bottom:2px solid #ebb75e;
+    border-right:2px solid #ebb75e;
+    border-left:2px solid #ebb75e;
+}
+li a:hover{
+    color: #191f3a;
+    background-color: #ebb75e;
+}
+.active:hover{
+    color: #191f3a;
+    background-color: #ebb75e;
+}
+ul p{
+    font-family:'Megrim';
+    font-weight: 600;
+    margin: auto;
+    font-size: 40px;
+    width: 40px;
+    color: #ebb75e;
+    background-color: #191f3a;
+    padding-right: 10px;
+}
+.o{
+    margin-left: 5%;
+}
+.s{
+    margin-right: 5%;
+}
+
+/*         style home           */
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+  }
+  .content h1{
+      font-size: 55px;
+      font-family: 'Megrim';
+  }
+  .content p{
+      font-size: 40px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-family: 'Kaushan Script';
+      font-weight: 300;
+      color: rgb(255, 249, 214);
+  }  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #2b3870;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #myBtn:hover {
+    background: #ebb75e;
+    color: black;
+  }
+  .content a button{
+      width: 200px;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      color: #191f3a;
+      background-color: #ebb75e;
+      cursor: pointer;
+  }
+  .content a button:hover{
+      color: #fff;
+      background-color: #191f3a;
+  }
+/*----------menu-----------*/
+.food-menu{
+    padding-left: 2%;
+    padding-top: 10%;
+}
+.food-menu-heading{
+    font-family: 'ZCOOL KuaiLe';
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 400;
+    color: #666;
+}
+.food-menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 30px 0;
+}
+.food-menu-container img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.food-menu-item{
+    display: flex;
+    flex: 1 1 600px;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+.food-describtion{
+    margin: auto 1.5rem;
+}
+.food-title{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444;
+}
+.food-describtion p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #555;
+    width: 300px;
+}
+.food-describtion .food-price{
+    color: #117964;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
